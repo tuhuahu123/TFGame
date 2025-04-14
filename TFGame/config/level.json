@@ -1,0 +1,53 @@
+[{
+		"rewards":	50,
+		"interval":	3,
+		"spawn_list":	[{
+				"interval":	0,
+				"point":	1,
+				"enemy":	"Slim"
+			}, {
+				"interval":	1,
+				"point":	1,
+				"enemy":	"KingSlim"
+			}, {
+				"interval":	2,
+				"point":	1,
+				"enemy":	"Goblin"
+			}, {
+				"interval":	2,
+				"point":	1,
+				"enemy":	"Goblin"
+			}, {
+				"interval":	2,
+				"point":	1,
+				"enemy":	"Skeleton"
+			}, {
+				"interval":	2,
+				"point":	1,
+				"enemy":	"GoblinPriest"
+			}]
+	}, {
+		"rewards":	50,
+		"interval":	2,
+		"spawn_list":	[{
+				"interval":	1,
+				"point":	1,
+				"enemy":	"Slim"
+			}, {
+				"interval":	2,
+				"point":	1,
+				"enemy":	"Skeleton"
+			}, {
+				"interval":	3,
+				"point":	1,
+				"enemy":	"Skeleton"
+			}, {
+				"interval":	2,
+				"point":	1,
+				"enemy":	"Goblin"
+			}, {
+				"interval":	1,
+				"point":	1,
+				"enemy":	"Goblin"
+			}]
+	}]

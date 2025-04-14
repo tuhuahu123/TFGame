@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="manager">
+      <UniqueIdentifier>{fd474ef7-faf9-432e-bc59-627f6f06d44f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="enemy">
+      <UniqueIdentifier>{e834e6a5-257a-47c6-b399-b7be588df77c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\cJSON">
+      <UniqueIdentifier>{30eed18a-4b1d-44d4-b65e-6e0d15497745}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="config">
+      <UniqueIdentifier>{8d99c367-7a2d-4221-b43c-ba5d3f760d67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="coin">
+      <UniqueIdentifier>{ef708485-9ac5-4916-a644-fd310cb0f7e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bullet">
+      <UniqueIdentifier>{653c6ec7-7600-4155-bb5c-3f8c1837386f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tower">
+      <UniqueIdentifier>{c788c9af-f17d-4cd0-8ecb-7c88a6deca2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{b457c324-dfb4-40e9-a76e-9e13dd477eb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\panel">
+      <UniqueIdentifier>{e8fdcda5-303d-405a-9431-4d1962663c9e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="map.h">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SDL_library\cJSON\cJSON.c">
+      <Filter>源文件\cJSON</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="manager\Game_manager.h">
+      <Filter>manager</Filter>
+    </ClInclude>
+    <ClInclude Include="manager\manager.h">
+      <Filter>manager</Filter>
+    </ClInclude>
+    <ClInclude Include="route.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="wave.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vector2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_manager.h">
+      <Filter>manager</Filter>
+    </ClInclude>
+    <ClInclude Include="wave_manager.h">
+      <Filter>manager</Filter>
+    </ClInclude>
+    <ClInclude Include="manager\config_manager.h">
+      <Filter>manager</Filter>
+    </ClInclude>
+    <ClInclude Include="coin\coin_manager.h">
+      <Filter>coin</Filter>
+    </ClInclude>
+    <ClInclude Include="coin\coin_prop.h">
+      <Filter>coin</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet\bullet.h">
+      <Filter>bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet\bullet_manager.h">
+      <Filter>bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet\bullet_type.h">
+      <Filter>bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy\enemy.h">
+      <Filter>enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="manager\resources_manager.h">
+      <Filter>manager</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy\enemy_goblin.h">
+      <Filter>enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy\enemy_goblin_priest.h">
+      <Filter>enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy\enemy_king_slim.h">
+      <Filter>enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy\enemy_skeleton.h">
+      <Filter>enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy\enemy_slim.h">
+      <Filter>enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy\enemy_type.h">
+      <Filter>enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="manager\home_manager.h">
+      <Filter>manager</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet\arrow_bullet.h">
+      <Filter>bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet\axe_bullet.h">
+      <Filter>bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet\shell_bullet.h">
+      <Filter>bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="tower\archer_tower.h">
+      <Filter>tower</Filter>
+    </ClInclude>
+    <ClInclude Include="tower\axeman_tower.h">
+      <Filter>tower</Filter>
+    </ClInclude>
+    <ClInclude Include="tower\gunner_tower.h">
+      <Filter>tower</Filter>
+    </ClInclude>
+    <ClInclude Include="tower\tower.h">
+      <Filter>tower</Filter>
+    </ClInclude>
+    <ClInclude Include="tower\tower_manager.h">
+      <Filter>tower</Filter>
+    </ClInclude>
+    <ClInclude Include="tower\tower_type.h">
+      <Filter>tower</Filter>
+    </ClInclude>
+    <ClInclude Include="tower\facing.h">
+      <Filter>tower</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\status_bar.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="manager\player_manager.h">
+      <Filter>manager</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\panel\panel.h">
+      <Filter>UI\panel</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\panel\place_panel.h">
+      <Filter>UI\panel</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\panel\upgrade_panel.h">
+      <Filter>UI\panel</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\banner.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TFGame.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="config\config.json">
+      <Filter>config</Filter>
+    </None>
+    <None Include="config\level.json">
+      <Filter>config</Filter>
+    </None>
+    <None Include="config\map.csv">
+      <Filter>config</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="asoq3-dnm0p-001.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
