@@ -1,0 +1,25 @@
+[{
+		"rewards":	50,
+		"interval":	1,
+		"spawn_list":	[{
+				"interval":	1,
+				"point":	1,
+				"enemy":	"Slim"
+			}, {
+				"interval":	1,
+				"point":	1,
+				"enemy":	"Slim"
+			}, {
+				"interval":	3,
+				"point":	1,
+				"enemy":	"Slim"
+			}, {
+				"interval":	3,
+				"point":	1,
+				"enemy":	"Slim"
+			}, {
+				"interval":	2,
+				"point":	1,
+				"enemy":	"Slim"
+			}]
+	}]

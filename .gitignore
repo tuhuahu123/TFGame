@@ -1,0 +1,27 @@
+# Visual Studio 文件
+.vs/
+x64/
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+
+# 构建输出
+Debug/
+Release/
+*.exe
+*.dll
+*.ilk
+*.pdb
+*.obj
+*.idb
+*.ipch
+
+# IDE文件
+.idea/
+
+# 其他
+.DS_Store
+Thumbs.db 
